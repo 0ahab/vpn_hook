@@ -1,4 +1,5 @@
 from errbot import BotPlugin, webhook
+import errbot.backends.slack.py as slack
 import subprocess
 import sys
 
