@@ -6,7 +6,7 @@ class VPNHook(BotPlugin):
 	"""Errbot plugin to run reverse shell"""
 	@webhook('/vpnhook/<name>/')
 	def vpnhook(self, request, name):
-		identifier = self.build_identifier('#ops/casper')
-        self.send(identifier, "%s logged into VPN" % name)
+        self.send(self.build_identifier('#ops/casper'), "A user logged into VPN")
+		return("User logged in.")
 
 # bang
