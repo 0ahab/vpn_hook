@@ -1,6 +1,6 @@
 [Core]
-Name = VPNPlug
-Module = vpnplug
+Name = VPNHook
+Module = vpnhook
 
 [Python]
 Version = 2+
